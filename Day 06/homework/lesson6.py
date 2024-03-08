@@ -1,0 +1,5 @@
+name=input("your name: ")
+surename=input("your surename: ")
+age=input("your age: ")
+address=input("your address: ")
+print("your name is",name,"your surename is",surename,"your age is",age,"your address is",address)
