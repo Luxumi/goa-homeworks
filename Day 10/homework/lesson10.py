@@ -1,4 +1,4 @@
-number1 = bool(input("type first answer(tru, false):  "))
+number1 = bool(input("type first answer(true, false):  "))
 number2 =  bool(input("type second answer:  "))
 
 answer1 = number1 and number2
