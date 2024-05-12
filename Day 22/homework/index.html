@@ -1,0 +1,46 @@
+let i = 0;
+
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+
+let i = 0;
+
+while (true) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
+  i++;
+}
+
+let i = 0;
+
+while (i < 10) {
+  i++;
+  if (i % 2 === 0) {
+    continue;
+  }
+  console.log(i);
+}
+
+let i = 0;
+let j = 10;
+
+while (i < 10 && j > 0) {
+  console.log(i + " " + j);
+  i++;
+  j--;
+}
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 10);
+  }
+  
+  let num = getRandomNumber();
+  
+  while (num!== 5) {
+    console.log(num);
+    num = getRandomNumber();
+  }
